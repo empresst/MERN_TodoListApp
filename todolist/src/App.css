@@ -1,0 +1,51 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.create_form input{
+    width: 300px;
+    padding: 10px;
+    border-bottom: 2px solid;
+    outline: none;
+    margin-bottom: 4px;
+}
+.create_form button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.todo-item {
+    margin-top: 2px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between;
+    width: 300px;
+    padding: 2px;
+    color: white; /* Set the font color */
+    background-color: black;
+    border-bottom: 2px solid white; /* Specify the border style and color */
+    outline: none;
+    text-align: center;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.line_through {
+    text-decoration: line-through;
+}
+
+.delete-icon {
+    cursor: pointer;
+    color: red;
+    font-size: 15px; /* Remove the space between 15 and px */
+}
+
+.icon {
+    margin-right: 5px;
+    cursor: pointer; /* Adjust as needed */
+}
